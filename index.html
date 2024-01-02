@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        @media (max-width: 540px) {
+            .children {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .card {
+            background-color: #f3f4f6;
+        }
+
+        .description {
+            color: #4a5568;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold text-center mb-4">My Family</h1>
+
+        <section class="justify-center items-center mb-8">
+            <!-- Mother -->
+            <div class="text-center mr-8 bg-red-400">
+                <h2 class="font-bold mb-2">Mother</h2>
+                <img src="./makazi.jpeg" alt="Mother" class="rounded-full w-32 h-32 object-cover mx-auto mb-2">
+                <p>Mother hen of 4 beautiful children.</p>
+                <p class="italic font">Born in 1982 - 09 - 20</p>
+            </div>
+
+            <!-- Children Container -->
+            <div class="flex justify-center children">
+                <!-- Child 1 -->
+                <div class="text-center mt-8 mx-4 bg-purple-200 rounded-lg p-4">
+                    <h2 class="font-bold mb-2">Aluncedo Iviwe</h2>
+                    <img src="./alu.jpeg" alt="Child 1" class="rounded-full w-32 h-32 object-cover mx-auto mb-2">
+                    <p>Born 1998 - 11- 11</p>
+                    <p class="italic underline font-bold">Tall, Dark and Beautiful</p>
+                    <p>Aluncedo, the eldest of the siblings, embodies a heart of pure tenderness and sweetness.
+                        Her compassionate nature shines through her actions as she selflessly makes sacrifices not only
+                        for herself but also for her beloved family.
+                        Aluncedo's endearing qualities include a profound respect for others, a trait that emanates from
+                        her genuine love for her siblings.
+                        She cherishes each of them dearly, showering them with affection and unwavering support.
+                        Her altruistic spirit and devotion to her family illustrate her remarkable character, making her
+                        a beacon of warmth and kindness in their lives. </p>
+                </div>
+
+                <!-- Child 2 -->
+                <div class="text-center mt-8 mx-4 bg-green-200 rounded-lg p-4">
+                    <h2 class="font-bold mb-2">Zosuliwe Amahle</h2>
+                    <img src="./suliwe.jpeg" alt="Child 2" class="rounded-full w-32 h-32 object-cover mx-auto mb-2">
+                    <p>Born 2003 - 12 - 30</p>
+                    <p class="italic underline font-bold">Short, Bubbly and Wise</p>
+                    <p>Zosuliwe, a gentle and reserved soul, possesses a heart brimming with love despite her shy
+                        nature. She grapples with expressing her emotions openly, finding it challenging to articulate
+                        her inner feelings verbally. However, what captivates and endears her to others lies within her
+                        invaluable qualities. Zosuliwe's remarkable ability to offer insightful advice, coupled with her
+                        quick thinking and profound wisdom, distinguishes her amidst her quiet demeanor. While she may
+                        struggle to vocalize her emotions, her wisdom and intuitive guidance shine brightly, portraying
+                        a depth of character that resonates deeply with those fortunate enough to receive her counsel.
+                    </p>
+                </div>
+
+                <!-- Child 3 -->
+                <div class="text-center mt-8 mx-4 bg-red-200 rounded-lg p-4">
+                    <h2 class="font-bold mb-2">Nizibone Nonikwa</h2>
+                    <img src="./nizi.jpeg" alt="Child 3" class="rounded-full w-32 h-32 object-cover mx-auto mb-2">
+                    <p>Born 2015- 09- 19 </p>
+                    <p class="italic underline font-bold">Chatty, Smart and Not-to-mess-with</p>
+                    <p>At only six years old, Nizibone stands out as an exceptionally bright and kind-hearted child. Her
+                        intelligence shines through her actions and interactions with others. There's a distinct aura of
+                        "don't mess with me" energy that sets her apart, showcasing a determination and strength of
+                        character uncommon for her age. Despite this bold energy, she possesses a heart full of kindness
+                        and empathy. Nizibone finds joy in watching TV and engaging in educational activities,
+                        particularly enjoying math and playing school with her beloved sibling, Lathi. Her enthusiasm
+                        for learning and her protective yet caring nature toward her siblings make her a fascinating and
+                        cherished presence within the family.</p>
+                </div>
+
+                <!-- Child 4 -->
+                <div class="text-center mt-8 mx-4 bg-blue-200 rounded-lg p-4">
+                    <h2 class="font-bold mb-2">Yolatha Ibongwe</h2>
+                    <img src="./lathi.jpeg" alt="Child 4" class="rounded-full w-32 h-32 object-cover mx-auto mb-2">
+                    <p>Born 2017- 08- 16 </p>
+                    <p class="italic underline font-bold">Shy, Lovely, and Petite Not-to-mess-with</p>
+                    <p>Yolatha carries an enigmatic air, often perceived as moody and reserved, preferring to navigate
+                        life at her own unhurried pace. Her shy demeanor and occasional short temper might create a
+                        distant impression initially. However, once you break through her initial reserve, a different
+                        side of her emerges—one adorned with remarkable kindness and warmth. Yolatha's true essence
+                        reveals itself as an individual who is incredibly considerate and caring. Getting to know her
+                        reveals a soul that radiates with kindness and niceties, offering a glimpse into her genuine and
+                        compassionate nature, fostering deeper connections once her trust is earned.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
